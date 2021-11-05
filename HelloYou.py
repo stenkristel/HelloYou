@@ -1,8 +1,5 @@
 import random
 
-def Nederland():
-    print("Nederland")
-
 def C2c():
     print("Een paar weken later kom je aan in Rotterdam. Je wilt hier een leven starten hoe begin je?")
     print("A: Ga werken op een vissers boot")
@@ -194,8 +191,8 @@ def B6b():
         print("Het schip komt uiteindelijk aan in China, je gaat naar buiten en doet je normale kleding weer aan.")
         China()
     if inp == "B":
-        print("Je probeert de cours naar Nederland te veranderen en een dag later vertrekt het schip. Je verbergt je in een kombuis en komt alleen naar buiten om eten en drinken te halen. Je komt een paar weken later in Nederland aan.")
-        Nederland()
+        print("Je probeert de cours naar Nederland te veranderen en een dag later vertrekt het schip. Je verbergt je in een kombuis en komt alleen naar buiten om eten en drinken te halen.")
+        C2c()
 
 
 def B5b():
